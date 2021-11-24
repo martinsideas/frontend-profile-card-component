@@ -1,0 +1,101 @@
+.main-card {
+  width: 600.3px;
+  height: auto;
+  margin: 1vw auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 30px;
+}
+
+.main-card .header-background {
+  background-image: url("../images/bg-pattern-card.svg");
+  width: 100%;
+  max-width: 600.3px;
+  height: 225.113px;
+  border-radius: 30px 30px 0 0;
+}
+
+.main-card .user-info {
+  position: relative;
+}
+
+.main-card .user-info .img-bg {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 240.125px;
+  height: 240.125px;
+  left: 172.592px;
+  top: -120.064px;
+}
+
+.main-card .user-info .img-bg img {
+  width: 225.113px;
+  height: 225.113px;
+  position: absolute;
+  border-radius: 50%;
+  left: 7.504px;
+  top: 7.504px;
+}
+
+.main-card .user-info .name {
+  margin: 150.08px 7.504px 7.504px 105.056px;
+  font-size: 52.3px;
+  font-weight: bold;
+}
+
+.main-card .user-info .name .age {
+  margin-left: 22.512px;
+  color: #969696;
+  font-weight: normal;
+}
+
+.main-card .user-info .country {
+  color: #969696;
+  font-size: 26.264px;
+  margin-left: 247.632px;
+  margin-bottom: 45.024px;
+}
+
+.main-card .user-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 37.52px;
+  padding-top: 22.512px;
+  text-align: center;
+}
+
+.main-card .user-stats .big {
+  font-weight: bold;
+  font-size: 37.52px;
+}
+
+.main-card .user-stats .small {
+  color: #969696;
+  font-size: 22.512px;
+}
+
+.main-card .user-stats .followers {
+  margin: 7.504px 7.504px 7.504px 90.048px;
+}
+
+.main-card .user-stats .likes {
+  margin: 7.504px 7.504px 7.504px 60.032px;
+}
+
+.main-card .user-stats .photos {
+  margin: 7.504px 7.504px 7.504px 60.032px;
+}
+
+.attribution {
+  font-size: 1vw;
+  padding-bottom: 1vw;
+}
+/*# sourceMappingURL=styles_desktop.css.map */

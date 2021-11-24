@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-color: wheat;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*-------------------------------------------------------*/
+.main-card {
+  width: 80%;
+  height: auto;
+  margin: 3vw auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 4vw;
+}
+
+.main-card .header-background {
+  background-image: url("../images/bg-pattern-card.svg");
+  width: 100%;
+  height: 30vw;
+  border-radius: 4vw 4vw 0 0;
+}
+
+.main-card .user-info {
+  position: relative;
+}
+
+.main-card .user-info .img-bg {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 32vw;
+  height: 32vw;
+  left: 23vw;
+  top: -16vw;
+}
+
+.main-card .user-info .img-bg img {
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  border-radius: 50%;
+  left: 1vw;
+  top: 1vw;
+}
+
+.main-card .user-info .name {
+  margin: 20vw 1vw 1vw 14vw;
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+.main-card .user-info .name .age {
+  margin-left: 3vw;
+  color: #969696;
+  font-weight: normal;
+}
+
+.main-card .user-info .country {
+  color: #969696;
+  font-size: 3.5vw;
+  margin-left: 33vw;
+  margin-bottom: 6vw;
+}
+
+.main-card .user-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5vw;
+  padding-top: 3vw;
+  text-align: center;
+}
+
+.main-card .user-stats .big {
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.main-card .user-stats .small {
+  color: #969696;
+  font-size: 3vw;
+}
+
+.main-card .user-stats .followers {
+  margin: 1vw 1vw 1vw 12vw;
+}
+
+.main-card .user-stats .likes {
+  margin: 1vw 1vw 1vw 8vw;
+}
+
+.main-card .user-stats .photos {
+  margin: 1vw 1vw 1vw 8vw;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,85 @@
+.main-card{
+    width: 600.3px;
+    height: auto;
+    margin: 1vw auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+
+        .header-background{
+            background-image: url("../images/bg-pattern-card.svg");
+            width: 100%;
+            max-width: 600.3px;
+            height: 225.113px;
+            border-radius: 30px 30px 0 0;
+        }
+        .user-info{
+            position: relative;
+            
+
+            .img-bg{
+                background-color: white;
+                position: absolute;
+                border-radius: 50%;
+                width: 240.125px;
+                height: 240.125px;
+                left: 172.592px;
+                top: -120.064px;
+
+                img{
+                    width: 225.113px;
+                    height: 225.113px;
+                    position: absolute;
+                    border-radius: 50%;
+                    left: 7.504px;
+                    top: 7.504px;
+                }
+            }
+            .name{
+                margin: 150.08px 7.504px 7.504px 105.056px;
+                font-size: 52.3px;
+                font-weight: bold;
+
+                .age{
+                    margin-left: 22.512px;
+                    color: hsl(0, 0%, 59%);
+                    font-weight: normal;
+                }
+            }
+            .country{
+                color: hsl(0, 0%, 59%);
+                font-size: 26.264px;
+                margin-left: 247.632px;
+                margin-bottom: 45.024px;
+            }
+        }
+        .user-stats{
+            display: flex;
+            padding-bottom: 37.52px;
+            padding-top: 22.512px;
+            text-align: center;
+
+            .big{
+                font-weight: bold;
+                font-size: 37.52px;
+            }
+            .small{
+                color: hsl(0, 0%, 59%);
+                font-size: 22.512px;
+            }
+            .followers{
+                margin: 7.504px 7.504px 7.504px 90.048px;
+            }
+            .likes{
+                margin: 7.504px 7.504px 7.504px 60.032px;
+            }
+            .photos{
+                margin: 7.504px 7.504px 7.504px 60.032px;
+            }
+        }
+    }
+.attribution{
+    font-size: 1vw;
+    padding-bottom: 1vw;
+}
